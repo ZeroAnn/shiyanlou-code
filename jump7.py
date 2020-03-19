@@ -1,0 +1,5 @@
+Code/                                                                                               0000775 0011610 0011610 00000000000 13634375626 012551  5                                                                                                    ustar   shiyanlou                       shiyanlou                                                                                                                                                                                                              Code/jump7.py                                                                                       0000664 0011610 0011610 00000000133 13634375626 014162  0                                                                                                    ustar   shiyanlou                       shiyanlou                                                                                                                                                                                                              for a in range(1,101):
+    if a%7==0 or a%10==7 or a//10==7:
+ continue
+    else:
+ print(a)
